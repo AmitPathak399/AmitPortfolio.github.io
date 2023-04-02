@@ -300,13 +300,17 @@ nav .fa-solid{
         background-image: url(images/Screenshot\ \(129\).png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 80%;
         font-size: 20px;
         margin-left: 20px;
         position: absolute;
     }
     .header-text h1{
         font-size: 30px;
+    }
+    .header-text p{
+        font-size: small;
+        margin-top: 10px;
     }
     nav .fa-solid{
         display: block;

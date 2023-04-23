@@ -13,10 +13,11 @@ body{
 }
 #header{
     width: 100%;
-    height: 100vh;
-    background-image: url(images/Screenshot\ \(126\).png);
+    /* height: 0vh; */
+    /* background-image: url(images/Screenshot\ \(126\).png); */
     background-size: cover;
-    background-position-x:center;
+    /* background-position-x:center; */
+    text-align: center;
 }
 .container{
     padding:10px 5%;
@@ -26,6 +27,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+nav span{
+    color:#ff004f
 }
 nav ul li{
     display:inline-block;
@@ -52,7 +56,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 20px;
     margin-left: 50px;
     
@@ -63,6 +67,16 @@ nav ul li a:hover::after{
 }
 .header-text span{
     color:#ff004f;
+}
+#typerwriter{
+    color:#ff004f ;
+}
+#typerwrite{
+    color:#ff004f ;
+    height: 45px;
+    width: auto;
+    /* border:1px solid #ff004f; */
+    
 }
 
 
@@ -83,12 +97,14 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    
 }
 .about-col-2{
     flex-basis: 60%;
 }
 .sub-title{
     font-size: 60px;
+    padding-bottom: 20px;
 }
 .tab-titles{
     display: flex;
@@ -143,7 +159,12 @@ nav ul li a:hover::after{
     text-align: center;
     align-items: center;
     border-radius: 10px;
+    width: 300px;
     transition: 0.5s,transform 0.5s;
+}
+.skill-list img{
+    width: 200px;
+    height: auto;
 }
 .skill-list div:hover{
     background: #262626;
@@ -297,10 +318,11 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/Screenshot\ \(129\).png);
+        /* background-image: url(images/Screenshot\ \(129\).png); */
+        height: 40vh;
     }
-    .header-text{
-        margin-top: 80%;
+    .header-text{ 
+        margin-top: 20%;
         font-size: 20px;
         margin-left: 20px;
         position: absolute;
@@ -356,6 +378,7 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+
 }
 
 #msg{

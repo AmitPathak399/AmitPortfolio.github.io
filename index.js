@@ -43,7 +43,7 @@ function sleep(ms){
     return new Promise((resolve)=>setTimeout(resolve,ms))
 }
 const el = document.getElementById("typerwriter")
-const phrases = [ "A Full-Stack Web Developer.", "A NodeJS Developer.", "A Problem Solver." ]
+const phrases = [ "A Full-Stack Web Developer.", "A ReactJS Developer.", "A Problem Solver." ]
 let sleepTime = 100;
 let curPhraseIndex = 0;
 const writeLoop = async () =>{
